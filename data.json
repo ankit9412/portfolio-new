@@ -1,0 +1,133 @@
+{
+  "profile": {
+    "name": "Ankit Kumar",
+    "title": "Full-stack Developer & AI Enthusiast",
+    "description": "Software Developer with experience building full-stack and AI-powered applications using Python, C++, JavaScript, React.js, Node.js, and Flask. Skilled in RESTful API development, secure authentication, database design, and scalable system development.",
+    "photo": "profile.jpg",
+    "resume_link": "https://drive.google.com/drive/folders/1arbUUHxhkGqtKW-F2KRgamGSc_POcdC7",
+    "github": "https://github.com/ankit9412",
+    "linkedin": "https://www.linkedin.com/in/ankit-kumar-5367a6249/",
+    "email": "ankitkumar892744@gmail.com"
+  },
+  "about": {
+    "intro": "I'm a software developer who enjoys building scalable web applications and exploring the potential of AI. Focused on clean architecture, performance, and creating solutions that make a real impact.",
+    "stats": [
+      { "value": "20+", "label": "Projects" },
+      { "value": "2", "label": "Internships" },
+      { "value": "12+", "label": "Technologies" }
+    ],
+    "skills": {
+      "Languages": ["Python", "C++", "JavaScript", "C", "HTML", "CSS"],
+      "Frameworks & Libraries": ["React.js", "Node.js", "Flask", "Express.js", "Tailwind CSS"],
+      "Databases": ["MongoDB", "MySQL", "DynamoDB"],
+      "AI / ML": ["TensorFlow", "OpenCV", "RAG", "LLMs", "LangChain"],
+      "Cloud & Tools": ["AWS", "Docker", "Git", "GitHub", "Vercel", "Postman"]
+    }
+  },
+  "projects": [
+    {
+      "title": "Agentic AI Chatbot (MERN)",
+      "description": "Engineered a full-stack agentic AI chatbot using MERN and LLMs, enabling contextual conversations, autonomous reasoning, and multi-step task execution.",
+      "tech": ["MongoDB", "Express.js", "React.js", "Node.js", "LLMs"],
+      "image": "https://images.unsplash.com/photo-1677442136019-21780ecad995?auto=format&fit=crop&q=80&w=800&h=600"
+    },
+    {
+      "title": "AI Resume Reviewer",
+      "description": "Built an AI-powered resume analysis platform using MERN, NLP, and LLMs for job matching, skill extraction, ATS keyword analysis, and feedback generation.",
+      "tech": ["MERN", "NLP", "LLMs"],
+      "image": "https://images.unsplash.com/photo-1586281380349-632531db7ed4?auto=format&fit=crop&q=80&w=800&h=600"
+    },
+    {
+      "title": "Real-Time Web Chat",
+      "description": "Developed a real-time messaging platform using Node.js and WebSocket with bidirectional communication, chat rooms, notifications, and typing indicators.",
+      "tech": ["JavaScript", "WebSocket", "Node.js"],
+      "image": "https://images.unsplash.com/photo-1611746869696-d09bce200020?auto=format&fit=crop&q=80&w=800&h=600"
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Technology in Electronics and Communication Engineering",
+      "institute": "Indian Institute of Information Technology, Tiruchirappalli",
+      "duration": "Nov 2022 - May 2026",
+      "image": "IIIT_Trichy.png"
+    },
+    {
+      "degree": "Class 12",
+      "institute": "D.B.S.D. College, Kadna",
+      "duration": "2020 – 2021 • Saran, Bihar",
+      "description": "Completed higher secondary education with focus on science and mathematics.",
+      "image": "Dbs_college.png"
+    },
+    {
+      "degree": "Class 10",
+      "institute": "Holy Kids International School, Katra",
+      "duration": "2018 – 2019 • Saran, Bihar",
+      "description": "Completed secondary education with focus on science and mathematics.",
+      "image": "school.png"
+    }
+  ],
+  "experience": [
+    {
+      "role": "Full Stack Developer Intern",
+      "company": "Dreamland Technologies (Delhi, India)",
+      "date": "Jan 2026 - Jun 2026",
+      "details": [
+        "Developed a full-stack CRM portal using MongoDB, Express.js, React.js, and Node.js, enabling efficient customer and lead management.",
+        "Implemented JWT authentication and role-based authorization.",
+        "Optimized MongoDB queries for faster data retrieval, and collaborated with cross-functional teams using Git/GitHub and Agile."
+      ]
+    },
+    {
+      "role": "Machine Learning Intern",
+      "company": "Relearn Camp (Remote)",
+      "date": "May 2025 - Jul 2025",
+      "details": [
+        "Developed a PCB defect detection system using YOLO, achieving 95%+ accuracy and reducing manual inspection time by 40%.",
+        "Built an end-to-end ML pipeline covering data preprocessing, model training, hyperparameter tuning, and evaluation using Python, TensorFlow, and OpenCV."
+      ]
+    }
+  ],
+  "achievements": [
+    {
+      "icon": "🏆",
+      "title": "Pre-Finalist (National Level)",
+      "description": "Gen AI Exchange Hackathon 2025, Generative AI for Youth Mental Wellness."
+    },
+    {
+      "icon": "🌟",
+      "title": "Finalist",
+      "description": "Yophoria Innovation Challenge 2025, ranked among top 632 teams nationally."
+    },
+    {
+      "icon": "📜",
+      "title": "Certifications",
+      "description": "MERN Stack Development | AI/ML"
+    }
+  ],
+  "certifications": [
+    {
+      "title": "MERN Stack Course",
+      "issuer": "Apna College",
+      "link": "https://drive.google.com/file/d/1tLf8pQ286yuRG0HNBSsT9VwLw3atFN1z/view?usp=drivesdk",
+      "icon": "fas fa-code"
+    },
+    {
+      "title": "AI / ML Course",
+      "issuer": "Apna College",
+      "link": "https://drive.google.com/file/d/1TvWdvFzuSQiUENccnEuekxPrCnCoc5Oh/view?usp=drivesdk",
+      "icon": "fas fa-brain"
+    }
+  ],
+  "contact": {
+    "email": "ankitkumar892744@gmail.com",
+    "phone": "+91 7906248742",
+    "location": {
+      "college": "Tiruchirappalli, Tamil Nadu",
+      "home": "Noida, Uttar Pradesh"
+    },
+    "social": {
+      "linkedin": "https://www.linkedin.com/in/ankit-kumar-5367a6249/",
+      "email": "ankitkumar892744@gmail.com"
+    }
+  }
+}

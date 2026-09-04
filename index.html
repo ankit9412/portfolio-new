@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link id='favicon' rel="shortcut icon" href="avatar.png" type="image/x-png">
+  <title>Ankit Kumar - Portfolio</title>
+  <link rel="stylesheet" href="styles.css?v=2">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Inter:wght@300;400;500;600;700;800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo"><span class="logo-text">AK</span></div>
+      <div class="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#certifications" class="nav-link">Certifications</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </div>
+      <div class="hamburger"><span></span><span></span><span></span></div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title"></h1>
+          <p class="hero-subtitle"></p>
+          <p class="hero-description"></p>
+          <div class="hero-buttons">
+            <a href="#experience" class="btn btn-primary">View My Work</a>
+            <a href="#" target="_blank" class="btn btn-secondary">
+              <i class="fas fa-download"></i> View Resume
+            </a>
+          </div>
+          <div class="social-links">
+            <a href="https://github.com/ankit9412" target="_blank" class="social-link"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ankit-kumar-5367a6249/" target="_blank" class="social-link"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="mailto:ankitkumar892744@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="" alt="Ankit Kumar" class="profile-img">
+            <div class="image-glow"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about">
+    <!-- <div class="about-top-decorator">
+      <i class="fas fa-arrow-down"></i> -->
+    <!-- </div> -->
+    <h2 class="section-title">About <span class="accent">Me</span></h2>
+    <div class="container">
+      <div class="about-content">
+
+        <div class="about-left">
+          <!-- <div class="section-label">01 &mdash; ABOUT ME</div> -->
+          <h2 class="about-title">More Than Just <span class="accent">Code</span></h2>
+          <p class="about-description"></p>
+          <div class="stats"></div>
+        </div>
+
+        <div class="about-divider">
+          <div class="dot"></div>
+          <div class="dot-bottom"></div>
+        </div>
+
+        <div class="about-right">
+          <div class="skills-header">
+            <h3 class="skills-title">Technical Expertise</h3>
+            <a href="#" class="explore-skills">EXPLORE ALL SKILLS &rarr;</a>
+          </div>
+          <div class="skills-grid">
+            <!-- Skills will be dynamically injected -->
+          </div>
+        </div>
+      </div>
+
+      <div class="about-bottom">
+        <div class="section-label">FROM IDEAS TO PRODUCTS</div>
+        <h3 class="bottom-quote">I turn complex problems into<br>clean, scalable digital experiences.</h3>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="experience">
+    <div class="container">
+      <h2 class="section-title">Professional <span class="accent">Journey</span></h2>
+      <div class="timeline"></div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Projects</span></h2>
+      <div class="projects-grid"></div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="education">
+    <div class="container">
+      <h2 class="section-title">Professional <span class="accent">Education</span></h2>
+      <div class="education-grid" id="education-grid">
+        <!-- Cards will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="achievements">
+    <div class="container">
+      <h2 class="section-title">Notable <span class="accent">Achievements</span></h2>
+      <div class="achievements-grid"></div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="certifications">
+    <div class="container">
+      <h2 class="section-title">My <span class="accent">Certifications</span></h2>
+      <div class="certifications-grid"></div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <h2 class="section-title">Let's <span class="accent">Connect</span></h2>
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p></p>
+          <div class="contact-details"></div>
+          <div class="social-links-contact">
+            <!-- <a href="#" target="_blank" class="social-link"><i class="fab fa-github"></i></a> -->
+            <a href="https://www.linkedin.com/in/ankit-kumar-5367a6249/" target="_blank" class="social-link"><i
+                class="fab fa-linkedin"></i></a>
+            <a href="mailto:ankitkumar892744@gmail.com" class="social-link"><i class="fas fa-envelope"></i></a>
+          </div>
+        </div>
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-group"><input type="text" id="name" name="name" placeholder="Your Name" required></div>
+            <div class="form-group"><input type="email" id="email" name="email" placeholder="Your Email" required></div>
+            <div class="form-group"><input type="text" id="subject" name="subject" placeholder="Subject" required></div>
+            <div class="form-group"><textarea id="message" name="message" placeholder="Your Message" rows="5"
+                required></textarea></div>
+            <input type="hidden" name="time" id="time">
+            <button type="submit" class="btn btn-primary"><i class="fas fa-paper-plane"></i> Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; Crafted with ❤️Love & Passion✨</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#experience">Experience</a>
+          <a href="#projects">Projects</a>
+          <a href="#education">Education</a>
+          <a href="#certifications">Certifications</a>
+          <a href="#contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+  <script>
+    document.addEventListener("DOMContentLoaded", async () => {
+      const res = await fetch("data.json");
+      const data = await res.json();
+
+      // ------------------- Hero Section -------------------
+      document.querySelector(".hero-title").innerHTML = `Hello, I'm <span class="accent">${data.profile.name}</span>`;
+      document.querySelector(".hero-subtitle").textContent = data.profile.title;
+      document.querySelector(".hero-description").textContent = data.profile.description;
+      document.querySelector(".profile-img").src = data.profile.photo;
+      document.querySelector(".btn-secondary").href = data.profile.resume_link;
+
+      const socialLinks = document.querySelectorAll(".social-links a");
+      socialLinks[0].href = data.profile.github;
+      socialLinks[1].href = data.profile.linkedin;
+      socialLinks[2].href = `mailto:${data.profile.email}`;
+
+      // ------------------- About Section -------------------
+      document.querySelector("#about .about-description").textContent = data.about.intro;
+
+      const statsContainer = document.querySelector(".stats");
+      statsContainer.innerHTML = data.about.stats
+        .map(stat => `<div class="stat"><span class="stat-number">${stat.value}</span><span class="stat-label">${stat.label}</span></div>`)
+        .join("");
+
+      // ------------------- Skills Section -------------------
+      const skillsGrid = document.querySelector(".skills-grid");
+      const categoryIcons = {
+        "Languages": '<i class="fas fa-code"></i>',
+        "Frameworks & Libraries": '<i class="fas fa-layer-group"></i>',
+        "Databases": '<i class="fas fa-database"></i>',
+        "AI / ML": '<i class="fas fa-brain"></i>',
+        "Cloud & Tools": '<i class="fas fa-cloud"></i>'
+      };
+
+      skillsGrid.innerHTML = Object.keys(data.about.skills)
+        .map(category => {
+          let displayName = category === "Frameworks & Libraries" ? "Frameworks" : category;
+          return `
+            <div class="skill-row">
+              <div class="skill-category-label">
+                ${categoryIcons[category] || '<i class="fas fa-check"></i>'}
+                <span>${displayName}</span>
+              </div>
+              <div class="skills">
+                ${data.about.skills[category].map(skill => `<span class="skill">${skill}</span>`).join('')}
+              </div>
+            </div>
+          `;
+        }).join("");
+
+      // ------------------- Projects Section -------------------
+      const projectsGrid = document.querySelector(".projects-grid");
+      if (projectsGrid) {
+        projectsGrid.innerHTML = data.projects
+          .map(
+            proj => `
+        <div class="project-card">
+          <div class="project-image">
+            <img src="${proj.image}" alt="${proj.title}" class="project-img">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">${proj.title}</h3>
+            <p class="project-description">${proj.description}</p>
+            <div class="project-tech">
+              ${proj.tech.map(t => `<span class="tech-tag">${t}</span>`).join("")}
+            </div>
+          </div>
+        </div>`
+          )
+          .join("");
+      }
+
+      // ------------------- Education Section -------------------
+      const educationGrid = document.querySelector(".education-grid");
+
+      fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+          educationGrid.innerHTML = data.education
+            .map(
+              edu => `
+        <div class="education-card">
+          <div class="education-image">
+            <img src="${edu.image}" alt="${edu.institute}" class="education-img">
+          </div>
+          <div class="education-content">
+            <h3 class="education-degree">${edu.degree}</h3>
+            <p class="education-institute">${edu.institute}</p>
+            <span class="education-duration">${edu.duration}</span>
+            ${edu.description ? `<p class="education-description" style="margin-top: 10px; font-size: 0.9rem; color: var(--text-secondary);">${edu.description}</p>` : ''}
+          </div>
+        </div>`
+            )
+            .join("");
+        })
+        .catch(error => console.error('Error loading education data:', error));
+
+
+      // ------------------- Experience Section -------------------
+      const timeline = document.querySelector(".timeline");
+      timeline.innerHTML = data.experience
+        .map(
+          exp => `
+      <div class="timeline-item">
+        <div class="timeline-dot"></div>
+        <div class="timeline-content">
+          <h3>${exp.role}</h3>
+          <h4>${exp.company}</h4>
+          <span class="timeline-date">${exp.date}</span>
+          <ul>${exp.details.map(d => `<li>${d}</li>`).join("")}</ul>
+        </div>
+      </div>`
+        )
+        .join("");
+
+      // ------------------- Achievements Section -------------------
+      const achievementsGrid = document.querySelector(".achievements-grid");
+      achievementsGrid.innerHTML = data.achievements
+        .map(
+          a => `
+      <div class="achievement-card">
+        <div class="achievement-icon">${a.icon}</div>
+        <h3>${a.title}</h3>
+        <p>${a.description}</p>
+      </div>`
+        )
+        .join("");
+
+      // ------------------- Certifications Section -------------------
+      const certGrid = document.querySelector(".certifications-grid");
+      if (data.certifications && certGrid) {
+        certGrid.innerHTML = data.certifications
+          .map(
+            cert => `
+        <div class="certification-card">
+          <div class="cert-icon"><i class="${cert.icon}"></i></div>
+          <div class="cert-content">
+            <h3>${cert.title}</h3>
+            <p>${cert.issuer}</p>
+            <a href="${cert.link}" target="_blank" class="btn btn-primary" style="margin-top:15px; padding: 0.5rem 1rem; font-size: 0.85rem; width: auto; max-width: none;">View Certificate</a>
+          </div>
+        </div>`
+          )
+          .join("");
+      }
+
+      // ------------------- Contact Section -------------------
+      document.querySelector(".contact-info p").textContent =
+        "I'm always eager to explore new opportunities, collaborate on impactful projects, or connect over topics related to human resources, organizational development, and business operations.";
+
+      document.querySelector(".contact-details").innerHTML = `
+    <div class="contact-item"><i class="fas fa-phone"></i><div><h4>Phone</h4><p>${data.contact.phone}</p></div></div>
+    <div class="contact-item"><i class="fas fa-envelope"></i><div><h4>Email</h4><p>${data.contact.email}</p></div></div>
+    <div class="contact-item"><i class="fas fa-map-marker-alt"></i><div><h4>Location</h4><p>${data.contact.location.home}</p></div></div>
+  `;
+
+      const contactSocial = document.querySelectorAll(".social-links-contact a");
+      contactSocial[0].href = data.contact.social.linkedin;
+      contactSocial[1].href = `mailto:${data.contact.social.email}`;
+    });
+
+  </script>
+
+  <!-- EmailJS SDK -->
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+  <script>
+    document.getElementById("contactForm").addEventListener("submit", function (e) {
+      e.preventDefault();
+      document.getElementById("time").value = new Date().toLocaleString();
+      // Initialize EmailJS with your public key
+      emailjs.init("_nNnr0YhsrMmKosoR");
+
+      // Send form data
+      emailjs.sendForm(
+        "service_oo1oips",    // your service ID
+        "template_43ppusn",   // your template ID from EmailJS dashboard
+        this                  // the form element
+      ).then(
+        function (result) {
+          console.log("SUCCESS!", result.text);
+          alert("Message sent successfully!");
+          document.getElementById("contactForm").reset();
+        },
+        function (error) {
+          console.error("FAILED...", error);
+          alert("Failed to send message. Please try again later.");
+        }
+      );
+    });
+  </script>
+
+
+</body>
+
+</html>
