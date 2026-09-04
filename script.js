@@ -143,30 +143,30 @@ window.addEventListener('load', () => {
 });
 
 // Contact form handling
-const contactForm = document.getElementById('contactForm');
+// 
+//     // Create mailto link
+//     const mailtoLink = `mailto:ankitkumar892744@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
 
-contactForm.addEventListener('submit', function (e) {
-    e.preventDefault();
+//     // Open email client
+//     window.location.href = mailtoLink;
+// const contactForm = document.getElementById('contactForm');
 
-    // Get form data
-    const formData = new FormData(contactForm);
-    const name = formData.get('name');
-    const email = formData.get('email');
-    const subject = formData.get('subject');
-    const message = formData.get('message');
+// contactForm.addEventListener('submit', function (e) {
+//     e.preventDefault();
 
-    // Create mailto link
-    const mailtoLink = `mailto:ankitkumar892744@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(`Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`)}`;
+//     // Get form data
+//     const formData = new FormData(contactForm);
+//     const name = formData.get('name');
+//     const email = formData.get('email');
+//     const subject = formData.get('subject');
+//     const message = formData.get('message');
 
-    // Open email client
-    window.location.href = mailtoLink;
+//     // Show success message
+//     showNotification('Email client opened! Please send the email to complete your message.', 'success');
 
-    // Show success message
-    showNotification('Email client opened! Please send the email to complete your message.', 'success');
-
-    // Reset form
-    contactForm.reset();
-});
+//     // Reset form
+//     contactForm.reset();
+// });
 
 // Notification system
 function showNotification(message, type = 'info') {
